@@ -1,4 +1,5 @@
 const produtos = {
+  
     produto1: {
         nome: "Camiseta algodão premium",
         preco : 59.99,
