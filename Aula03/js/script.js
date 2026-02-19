@@ -57,8 +57,8 @@ function exibirProdutos() {
         disponibilidadeP.textContent = `Disponibilidade `
 
         const spanDisponibilidade = document.createElement('span')
-        spanDisponibilidade.textContent = produto.disponivel ? 'disponivel : indisponivel'
-        spanDisponibilidade.classList.add(produto.disponivel ? 'disponivel : indisponivel')
+        spanDisponibilidade.textContent = produto.disponivel ? 'disponivel' : 'indisponivel'
+        spanDisponibilidade.classList.add(produto.disponivel ? 'disponivel' : 'indisponivel')
 
         disponibilidadeP.appendChild(spanDisponibilidade)
 
