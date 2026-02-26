@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Produto</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Cadastro de Produto</h1>
+    <form  id="produtoForm">
+        <label for="nome">Nome:
+
+        </label>
+        <input type="text" name="preco" id="preco" step="0.10" required>
+        <label for="Dispoibilidade">Dispoibilidade</label>
+        <select name="dispoibilidade" id="dispoibilidade">
+            <option value="Disponivel">Disponivel</option>
+            <option value="Indisponivel">Indisponivel</option>
+        </select><br><br>
+
+        <input type="hidden" id="produtoId">
+        <button type="submit">Salvar</button>
+        <button type="button" id="cancelar">Cancelar</button>
+    </form>
+
+    <h2>lista de Produto </h2>
+    <table id="produtoTable">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Dispoibilidade</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+  </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
