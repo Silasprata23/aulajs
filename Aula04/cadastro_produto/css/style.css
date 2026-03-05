@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 
-.container {
+#container {
     width: 40vw;
     margin: 20px auto;
     background-color: #dad9d9;

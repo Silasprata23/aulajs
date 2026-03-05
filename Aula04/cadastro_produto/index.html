@@ -10,10 +10,14 @@
   <div id="container">
     <h1>Cadastro de Produto</h1>
     <form  id="produtoForm">
-        <label for="nome">Nome:
+      
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
 
-        </label>
-        <input type="text" name="preco" id="preco" step="0.10" required>
+        <label for="preco">Preço:</label>
+        <input type="number" name="preco" id="preco" step="0.01" required><br><br>
+       
+        
         <label for="Dispoibilidade">Dispoibilidade</label>
         <select name="dispoibilidade" id="dispoibilidade">
             <option value="Disponivel">Disponivel</option>
